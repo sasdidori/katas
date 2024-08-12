@@ -1,6 +1,5 @@
 package me.dora.katas.kyu8and7.reverse;
 
-import me.dora.katas.kyu8and7.reverse.Reverse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

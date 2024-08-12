@@ -1,6 +1,5 @@
 package me.dora.katas.kyu8and7.numberofdecimaldigits;
 
-import me.dora.katas.kyu8and7.numberofdecimaldigits.NumberOfDecimalDigits;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

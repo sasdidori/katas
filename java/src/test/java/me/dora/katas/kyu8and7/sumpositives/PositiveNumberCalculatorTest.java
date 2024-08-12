@@ -1,6 +1,5 @@
 package me.dora.katas.kyu8and7.sumpositives;
 
-import me.dora.katas.kyu8and7.sumpositives.PositiveNumberCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,6 +1,5 @@
 package me.dora.katas.kyu8and7.powersofi;
 
-import me.dora.katas.kyu8and7.powersofi.PowersOfI;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
