@@ -7,6 +7,9 @@ import java.util.stream.Stream;
 
 public class BlowingCandles {
     public int blowCandles(String str) {
+        if (str == null || str.isEmpty()) {
+            return 0;
+        }
         int counter = 0;
         List<Integer> candles = Arrays.stream(str.split(""))
                 .toList()
@@ -14,9 +17,6 @@ public class BlowingCandles {
                 .mapToInt(Integer::parseInt)
                 .boxed()
                 .toList();
-        if (candles.isEmpty()) {
-            return 0;
-        }
         List<Integer> candlesWithoutInitialZeros;
         while (!candles.isEmpty()) {
             candlesWithoutInitialZeros = candles.stream()

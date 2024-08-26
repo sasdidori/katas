@@ -1,6 +1,5 @@
 package me.dora.katas.kyu8and7.inspiringstrings;
 
-import me.dora.katas.kyu8and7.inspiringstrings.InspiringStrings;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
