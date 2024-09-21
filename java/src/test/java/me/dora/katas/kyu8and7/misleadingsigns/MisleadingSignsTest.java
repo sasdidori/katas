@@ -1,13 +1,11 @@
 package me.dora.katas.kyu8and7.misleadingsigns;
 
-import me.dora.katas.kyu8and7.misleadingsigns.MisleadingSigns;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
-
 class MisleadingSignsTest {
 
     MisleadingSigns misleadingSigns = new MisleadingSigns();
