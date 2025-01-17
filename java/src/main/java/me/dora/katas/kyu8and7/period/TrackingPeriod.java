@@ -5,7 +5,7 @@ import java.time.temporal.ChronoUnit;
 
 
 public class TrackingPeriod {
-    public boolean periodIsLate(LocalDate last, LocalDate today, int cycleLength) {
+    public boolean isPeriodLate(LocalDate last, LocalDate today, int cycleLength) {
         long until = last.until(today, ChronoUnit.DAYS);
         int daysSinceLast = Long.valueOf(until).intValue();
         return daysSinceLast > cycleLength;
